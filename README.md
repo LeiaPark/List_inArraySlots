@@ -5,16 +5,19 @@
 
 **Fields:**
 * ArrayList
+* capacity (the initial capacity of the array)
+* filledElements (the number of filled slots of the array)
 
 **Constructors:**
-* A constructor that would create an empty array list.
+* A constructor that would create an empty array list with a small initial capacity.
 
 **Methods:**
-* An *add* method that would insert an element at a specific position in the list.
+* An *add* boolean method that would add a value to the array if and only if the array was not filled; if not, then the array will expand.
 * A *remove* method that would remove an element at a specific position in the list.
 * A *size* method that would return the length of the list.
 * An *access* method that would return the value at a specific position in the list.
 * A *String* method that would return a string representation of the list.
+* An *expand* method that would double the size of the array.
 
 **Remarks on the UserOfList class:**
 * Add an element to the end of the list
