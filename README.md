@@ -12,7 +12,8 @@
 * A constructor that would create an empty array list with a small initial capacity.
 
 **Methods:**
-* An *add* boolean method that would add a value to the array if and only if the array was not filled; if not, then the array will expand.
+* An *add* boolean method that would add a value to the array if and only if the array is not filled.
+  * If not, the *expand* method will be executed, which will expand the size of the array.
 * A *remove* method that would remove an element at a specific position in the list.
 * A *size* method that would return the length of the list.
 * An *access* method that would return the value at a specific position in the list.
